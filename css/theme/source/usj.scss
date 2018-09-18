@@ -1,7 +1,6 @@
 /**
- * White theme for reveal.js. This is the opposite of the 'black' theme.
+ * USJ theme for reveal.js based on 'white' theme.
  *
- * By Hakim El Hattab, http://hakim.se
  */
 
 
@@ -45,11 +44,16 @@ section.has-dark-background {
 	}
 }
 
+.reveal blockquote {
+	font-family: $headingFont;
+}
+
 .bg-caption {
 	position: fixed;
+	max-width: 80%;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: -60px;
   padding: 10px;
   // background-color: rgba(0, 0, 0, 0.6);
 	font-size: 40% !important;
@@ -57,6 +61,7 @@ section.has-dark-background {
   text-align: left;
 }
 
+/* Layout */
 
 .multiCol {
     display: table;

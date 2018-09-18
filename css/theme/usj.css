@@ -1,23 +1,27 @@
 /**
- * White theme for reveal.js. This is the opposite of the 'black' theme.
+ * USJ theme for reveal.js based on 'white' theme.
  *
- * By Hakim El Hattab, http://hakim.se
  */
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
 @import url(../../lib/font/source-serif-pro/source-serif-pro.css);
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff; }
 
+.reveal blockquote {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif; }
+
 .bg-caption {
   position: fixed;
+  max-width: 80%;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: -60px;
   padding: 10px;
   font-size: 40% !important;
   font-style: italic !important;
   text-align: left; }
 
+/* Layout */
 .multiCol {
   display: table;
   table-layout: fixed;
