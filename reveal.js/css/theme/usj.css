@@ -21,6 +21,16 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   font-style: italic !important;
   text-align: left; }
 
+img[src*='#left'] {
+  float: left; }
+
+img[src*='#right'] {
+  float: right; }
+
+img[src*='#center'] {
+  display: block;
+  margin: auto; }
+
 /* Layout */
 .multiCol {
   display: table;
